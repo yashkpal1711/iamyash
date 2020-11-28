@@ -45,7 +45,7 @@
    position: relative;
   }
   
-  h1 {
+  h1 { 
     font-size: 130px;
     font-weight: 400;
     color: var(--primary-color);
@@ -253,4 +253,44 @@ background-size: cover;
 .reach-box{
   margin-top: 65vh;
   margin-left: 70vw;
+  text-align: center;
+  background-color: #cfcfcbc5;
+  border-radius: 20px;
+  
+}
+.reach-box h2{
+  font-size: 50px;
+}
+
+.reach-link{
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+  
+}
+
+.icon{
+
+  font-size: 50px;
+  
+  margin-bottom: 10px;
+}
+
+.fa-linkedin:link,
+.fa-linkedin:visited{
+  
+  
+
+}
+
+.fa-linkedin:hover,
+.fa-linkedin:active{
+  color: #0e76a8;
+
+}
+.fa-github-square{
+  margin-left: 15px;
+}
+.fa-github-square:hover{
+
+  color: white;
 }
