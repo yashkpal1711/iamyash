@@ -31,6 +31,7 @@
     
     
     
+    
   }
   
   .container {
@@ -108,9 +109,9 @@
 
 .about-me{
     
-   /* background-color: #a3b18ae5; */
-    background-color: #a3b18ae5;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 90 90'%3E%3Ccircle fill-opacity='0.46' fill='%23ffcc00' cx='45' cy='45' r='8'/%3E%3Cg fill='%23ffff66' fill-opacity='0.46'%3E%3Ccircle cx='0' cy='90' r='5'/%3E%3Ccircle cx='90' cy='90' r='5'/%3E%3Ccircle cx='90' cy='0' r='5'/%3E%3Ccircle cx='0' cy='0' r='5'/%3E%3C/g%3E%3C/svg%3E");
+   /* background-color: #a3b18ae5;   #828E7D
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 90 90'%3E%3Ccircle fill-opacity='0.46' fill='%23ffcc00' cx='45' cy='45' r='8'/%3E%3Cg fill='%23ffff66' fill-opacity='0.46'%3E%3Ccircle cx='0' cy='90' r='5'/%3E%3Ccircle cx='90' cy='90' r='5'/%3E%3Ccircle cx='90' cy='0' r='5'/%3E%3Ccircle cx='0' cy='0' r='5'/%3E%3C/g%3E%3C/svg%3E");*/
+    background-image: linear-gradient( to bottom left,#023e8a, #a3b18ae5) ;
     height: 135vh;
     clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
     
@@ -215,12 +216,12 @@ ul{
 
 .sec-skills{
     
-    background-color: #ffc2d4;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23ffcc00' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23444444' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23ffd722' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23474747' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23ffe135' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%234b4b4b' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23ffeb46' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%234e4e4e' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23fff556' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23525252' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23ffff66' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23555555' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-color: var(--secondary-color);
+    background-image:
 background-attachment: fixed;
 background-size: cover;
     margin-top: -45vh;
-    height: 190vh;
+    height: 150vh;
     clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%);
     
     
@@ -229,9 +230,15 @@ background-size: cover;
 .skills{
   text-align: center;
   margin-top: 80px;
-  font-family: lato;
+  margin-bottom: 30px;
+  
   font-size: 100px;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+.gutter{
+  height: 50px;
+  margin-top: 50px;
 }
 
 
@@ -245,17 +252,16 @@ background-size: cover;
 
 /*     cotact-me section                     */
 .contactme{
-  background-image: url(bg-img/content.png);
+ /* background-image: url(bg-img/content.png);*/
   background-size: cover;
   height: 100vh;
 }
 
 .reach-box{
-  margin-top: 65vh;
-  margin-left: 70vw;
+  margin-top: 67vh;
+  height: 25vh;
   text-align: center;
   background-color: #cfcfcbc5;
-  border-radius: 20px;
   
 }
 .reach-box h2{
