@@ -128,11 +128,12 @@
 }
 
 .aboutme-info-box{
+  
     margin-top:25px ;
    /* margin-left: 15%; */
    text-align: center;
     color: #fff;
-
+   
     margin-left: 5%;
     margin-right: 5%;
     
@@ -142,6 +143,7 @@
 .aboutme-info{
     height: 390px;
     /* //70e000  c71f37*/
+    border-radius: 20px;
   
   background-color:#a3b18abb
 
@@ -300,3 +302,8 @@ background-size: cover;
 
   color: white;
 }
+
+
+/******************THE CARD***********************/
+
+
